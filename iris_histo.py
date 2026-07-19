@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import koreanize_matplotlib
 
-plt.rc('font', family='Malgun Gothic')
+# plt.rc('font', family='Malgun Gothic')
 plt.rcParams['axes.unicode_minus'] = False
 
 file_path = 'iris.csv'
